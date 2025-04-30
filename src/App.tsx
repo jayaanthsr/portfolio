@@ -230,7 +230,7 @@ function HomePage() {
             >
               <Brain className="w-12 h-12 mb-4 text-purple-400" />
               <h3 className="text-xl font-semibold mb-2">Other Skills</h3>
-              <p className="text-gray-400">Data Structures & Algorithms, ServiceNow, C Programming, Problem Solving</p>
+              <p className="text-gray-400">Data Structures & Algorithms, C Programming, Problem Solving</p>
             </motion.div>
           </div>
         </div>
@@ -254,17 +254,17 @@ function HomePage() {
                 title: "Ecommerce Website",
                 description: "Full-stack ecommerce platform with React, Spring Boot, and MongoDB",
                 tags: ["React", "Spring Boot", "MongoDB"],
-                link: "#"
+                link: "https://github.com/jayaanthsr/Ecommerce"
               },
               {
                 title: "Inventory Management",
                 description: "MERN stack application for inventory tracking and management",
-                tags: ["MERN", "Node.js", "Express"],
-                link: "#"
+                tags: ["React.js", "Express.js","MongoDB"],
+                link: "https://github.com/jayaanthsr/Inventory-management-system"
               },
               {
                 title: "Spectra Website",
-                description: "College website for Android department with responsive design",
+                description: "College website for Android department Club Event with responsive design and animations",
                 tags: ["HTML", "CSS", "JavaScript"],
                 link: "https://android.kongu.edu"
               }
@@ -312,10 +312,10 @@ function HomePage() {
             >
               <Trophy className="w-12 h-12 mb-4 text-purple-400" />
               <h3 className="text-xl font-semibold mb-2">MongoDB Certified Associate Developer</h3>
-              <p className="text-gray-400 mb-2">MongoDB University</p>
-              <p className="text-sm text-gray-500">Issued: 2023</p>
+              <p className="text-gray-400 mb-2">MongoDB</p>
+              <p className="text-sm text-gray-500">Issued: 2024</p>
               <a 
-                href="#" 
+                href="https://www.credly.com/badges/005422ed-9e0b-4786-9930-522ad28624bd" 
                 className="inline-block mt-4 text-sm text-purple-400 hover:text-purple-300"
               >
                 View Credential
@@ -328,14 +328,14 @@ function HomePage() {
               <Trophy className="w-12 h-12 mb-4 text-purple-400" />
               <h3 className="text-xl font-semibold mb-2">ServiceNow Certification (Ongoing)</h3>
               <p className="text-gray-400 mb-2">ServiceNow</p>
-              <p className="text-sm text-gray-500">Expected: 2024</p>
+              <p className="text-sm text-gray-500">Expected: 2025</p>
               <div className="w-full bg-gray-700 rounded-full h-2.5 mt-4">
                 <div 
                   className="bg-purple-500 h-2.5 rounded-full" 
-                  style={{ width: '60%' }}
+                  style={{ width: '30%' }}
                 ></div>
               </div>
-              <p className="text-xs text-gray-400 mt-2">60% completed</p>
+              <p className="text-xs text-gray-400 mt-2">30% completed</p>
             </motion.div>
           </div>
         </div>
@@ -351,10 +351,25 @@ function HomePage() {
               className="p-6 rounded-lg bg-gradient-to-br from-purple-900/50 to-transparent backdrop-blur-sm mb-8"
             >
               <GraduationCap className="w-12 h-12 mb-4 text-purple-400" />
-              <h3 className="text-xl font-semibold mb-2">Bachelor of Engineering in Computer Science</h3>
+              <h3 className="text-xl font-semibold mb-2">Bachelor's of Engineering in Computer Science</h3>
               <p className="text-gray-400">Kongu Engineering College, Perundurai</p>
-              <p className="text-sm text-gray-500">2020 - 2024</p>
-              <p className="mt-2 text-gray-300">CGPA: 8.5/10</p>
+              <p className="text-sm text-gray-500">2022 - 2026</p>
+              <p className="mt-2 text-gray-300">CGPA: 7.77/10 till 6 th SEM </p>
+            </motion.div>
+          </div>
+        </div>
+        <div className="container mx-auto px-4">
+          <h2 className="text-4xl font-bold mb-12 text-center">Education</h2>
+          <div className="max-w-3xl mx-auto">
+            <motion.div 
+              whileHover={{ scale: 1.02 }}
+              className="p-6 rounded-lg bg-gradient-to-br from-purple-900/50 to-transparent backdrop-blur-sm mb-8"
+            >
+              <GraduationCap className="w-12 h-12 mb-4 text-purple-400" />
+              <h3 className="text-xl font-semibold mb-2">Bachelor's of Engineering in Computer Science</h3>
+              <p className="text-gray-400">Kongu Engineering College, Perundurai</p>
+              <p className="text-sm text-gray-500">2022 - 2026</p>
+              <p className="mt-2 text-gray-300">CGPA: 7.77/10 till 6 th SEM </p>
             </motion.div>
           </div>
         </div>
